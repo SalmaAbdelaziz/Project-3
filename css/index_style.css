@@ -1,0 +1,635 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family:'Poppins', 'sans-serif';
+}
+.home
+{
+    
+    height: 550px;
+}
+/*.home .carousel-indicators
+{
+    color: white;
+    margin-bottom: 10rem;
+}*/
+.carousel-item .home1
+{
+    position: relative;
+    color: white;
+    text-align: center;
+
+}
+
+.carousel-item .home
+{
+    position: relative;
+    color: white;
+    text-align: center;
+
+}
+
+.home .ba
+{
+    background-color: rgba(0, 0, 0, 0.01);
+}
+.home .logo{
+    
+    height: 2.5rem;
+    margin: 10px;
+    padding-left: 2.5rem;
+}
+.home li .nav-link{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    padding: 15px 0px;
+    margin: 0 15px;
+}
+.home .ico i
+{
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 18px 0px;
+    margin: 0 15px;
+}
+.home img
+{
+    height: 450px;
+    background-size: 100% 100%;
+}
+.home1 h1{
+    padding-top: 10%;
+    font-size: 100px;
+    font-weight: 700px;
+}
+.home1 p{
+    
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+.home button{
+    padding: 10px 15px;
+}
+.colr
+{
+    color: white;
+    background-color: transparent;
+}
+.colr:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.positionNext
+{
+    position: fixed;
+    left: 0;
+    bottom: 50%;
+    font-size: 40px;
+    color: rgb(34, 32, 32);
+    background-color: white;
+}
+.positionPrev
+{
+    position: fixed;
+    left: 0;
+    bottom: 43%;
+    font-size: 40px;
+    color: rgb(34, 32, 32);
+    background-color: white;
+}
+.home .sr-only
+{
+    position: fixed;
+    left: 0;
+    
+}
+.who .color-word
+{
+    color: #00c3da !important;
+    font-weight: 400;
+}
+.who {
+    margin-bottom: 3rem;
+    margin-top: 2.5rem;
+    margin-bottom: 4rem;
+}
+.who .animation::after
+{
+    content: "|";
+    animation: blink .7s infinite;
+    font-weight: lighter;
+    color: #787878;
+}
+.who h6{
+    font-size: 2rem;
+}
+ .who .btn .bb
+{ font-weight: 500;
+font-size: 11px;
+letter-spacing: 0.05em;
+}
+ .who .btn .btn-border
+{
+    color: #1f1f1f;
+    border-color: #dedede;
+    background-color: transparent;
+}
+
+.text-1
+{
+    animation: text1;
+}
+.text-2
+{
+    animation: text2;
+}
+.text-3
+{
+    animation: text3;
+}
+.text-1 ,.text-2 ,.text-3
+{
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    animation-duration: 14s;
+    animation-timing-function: steps(25 , end );
+    animation-iteration-count: infinite;
+}
+.text-1::after , .text-2::after , .text-3::after
+{
+    content: "|";
+    position: absolute;
+    right: 0;
+    animation: infinite;
+    animation-duration: 1s;
+    animation-timing-function: steps(1, end );
+}
+@keyframes text-1
+{
+    0% ,20% ,30%,40%, 50%,60%,70%,80%,90%,100%
+    {
+        width: 0;
+    }
+    30%
+    {
+        width: 6em;
+    }
+}
+@keyframes text-2
+{
+    0% ,20% ,30%,40%, 50%,60%,70%,80%,90%,100%
+    {
+        width: 0;
+    }
+    65%
+    {
+        width:7em;
+    }
+}
+@keyframes text-
+{
+    0% ,20% ,30%,40%, 50%,60%,70%,80%,90%,100%
+    {
+        width: 0;
+    }
+    95%
+    {
+        width:7.5em;
+    }
+}
+@keyframes caret{
+    0%,100%
+    {
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+}
+.About
+{
+    position: relative;
+    margin-bottom: 4.5rem;
+}
+.About .bg
+{background-color: white;}
+.About .col-md-6 img
+{
+    background-size: 100% 100%;
+    width: 100%;
+}
+.About p{
+    line-height: 28px;
+    font-weight: 400;
+    color: #787878;
+}
+
+.About nav hr{
+    color: black;
+    padding-top: 2px;
+    height: 3px;
+    top:10%
+}
+.team .col-lg-3
+{
+    overflow: hidden;
+}
+.team .letter
+{position: relative;
+}
+.letter h1{
+    position: absolute;
+    font-size: 3rem;
+}
+.letter h2{
+    color: #dbd8d8;
+    font-size: 2.9rem;
+    margin-top: 1rem;
+    font-weight: 800;
+}
+.team .teamp
+{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #787878;
+    overflow: hidden;
+}
+.teamp .photo
+{
+    position: relative;
+}
+.photo .layer
+{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    background-color: rgba(0, 195, 218, 0.9);
+    color: #fff;
+    transition: top .3s ease-in;
+}
+.photo:hover .layer
+{
+    top:0;
+}
+.layinfo .ico2 
+{
+    padding: 9rem 0;
+    padding-top: 0;
+    font-size: .9rem;
+}
+.ico2 i
+{
+    padding: 10px;
+}
+.layinfo h4
+{
+    font-size: .9rem;
+    padding-bottom: 0;
+    font-size: 18px;
+    margin: 10px 15px;
+}
+.services
+{
+    position: relative;
+    background-image: url(../images/asset\ 48.jpeg);
+    margin-top: 4rem;
+}
+.services .layer1
+{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .6;
+    background-color: #1f1f1f;
+    background-image: 100% 100%;
+}
+.ly
+{
+    position: relative;
+    padding: 8rem 0;
+}
+.ly1
+{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.services .sec h5
+{
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    line-height: 5rem;
+}
+.services .sec i{
+    font-size: 2.2rem;
+    color: white;
+    margin-top: 1rem;
+    padding-left: 4rem;
+}
+.services .col-lg-6
+{
+    overflow: hidden;
+}
+.services .shadow
+{position: relative;
+    color: white;
+}
+.shadow h1{
+    position: absolute;
+    font-size: 3rem;
+    text-align: left;
+}
+.shadow h2{
+    color: #dedede;
+    opacity: 0.11;
+    font-size: 2.9rem;
+    margin-bottom: 2rem;
+    font-weight: 800;
+    text-align: left;
+}
+.services .col-md-6 p{
+    color: white;
+    font-size: 1.3rem;
+}
+.services .list li
+{
+    list-style-type: none;
+    line-height: 3rem;
+    color: white;
+}
+.works .kinds li
+{
+    list-style-type: none;
+    padding: 2rem;
+    margin-bottom: 4rem;
+}
+.kinds .border
+{
+    color: #00c3da;
+    border-color: #00c3da;
+    border-radius: 20%;
+    border: 5px solid;
+    padding: .3rem .8rem;
+    width: 7%;
+}
+.works 
+{
+    overflow: hidden;
+    margin-top: 3rem;
+    position: relative;
+    margin-bottom: 6rem;
+}
+.works .line2
+{
+    content: '';
+    position: absolute;
+    height: 2px;
+    background-color: black;
+    width: 50px;
+    bottom: 10%;
+    text-align: center;
+    transition: all .5s;
+}
+.works:hover .line2
+{
+    width: 8%;
+}
+.works .back
+{position: relative;
+}
+
+.back h1{
+    position: absolute;
+    font-size: 3rem;
+}
+.back h2{
+    color: #dbd8d8;
+    font-size: 2.9rem;
+    margin-bottom: 1.8rem;
+    font-weight: 800;
+}
+ .works-img
+{
+    position: relative;
+    overflow: hidden;
+    transition: transform 1s;
+}
+.works-img img
+{
+    transition: transform 1s;
+
+}
+.works-img .lay
+{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    transition: all .5s ;
+}
+.works-img:hover .lay
+{
+    top:50%;
+    right: 10%;
+    left: 10%;
+    width: 80%;
+    height: 40%;
+    
+}
+.works-img:hover img {
+    transform: scale(1.1);
+}
+.lay-info 
+{
+    padding: 1rem;
+    font-size: .9rem;
+    text-align: center;
+    
+}
+.lay-info p{
+    color: #a3a0a0;
+    font-size: 1.2rem;
+}
+.works .row
+{
+    overflow: hidden;
+}
+.works .row .second
+{
+    margin-top: 3rem;
+}
+.pricing
+{
+    margin-top: 1.5rem;
+    background-color: whitesmoke;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.pricing .back2
+{position: relative;
+}
+
+.back2 h1{
+    position: absolute;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+.back2 h2{
+    color: #dbd8d8;
+    font-size: 2.9rem;
+    margin-top: .8rem;
+    font-weight: 800;
+}
+.pricing .pricep
+{
+    color: #787878;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+.pricing .card .btn-shadow
+{
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
+}
+.pricing .card .label
+{
+    position: absolute;
+    top: 40px;
+    right: 35px;
+    font-size: .8rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    background-color: #00c3da;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+.pricing .card .scale
+{
+    transform: scale(1.2);
+}
+.pricing .third i
+{
+color:#00c3da ;
+}
+.pricing .card .third h1
+{
+color:#00c3da ;
+}
+.slider
+{
+    position: relative;
+    background-color: whitesmoke;
+    margin-bottom: 5rem;
+}
+.slider .bg{
+    background-color: white;
+}
+.slider h5
+{
+    
+    padding-top: 3.5rem;
+}
+.slider .s-info
+{padding: 10rem 0;
+    
+   
+}
+.slider .s-info h3{
+    color: black;
+}
+.slider img{
+    height: 9rem;
+    /* position: absolute;
+    top: 0%; */
+    /* top:-25%;         to make image up */
+    /* left: 45%; */
+}
+.slider-info
+{
+    color:#787878 ;
+    line-height: 1.5rem;
+}
+.s-info p
+{
+    color:#787878 ;
+    line-height: 1.5rem;
+}
+.slider i{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.slideNext
+{
+    font-size: 25px;
+    color: rgb(24, 24, 212);
+}
+.slidePrev
+{
+    font-size: 25px;
+    color: rgb(24, 24, 212);
+}
+
+#carouselExampleIndicators
+{
+    color: rgb(50, 50, 128);
+}
+.contact
+{position: relative;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.finalback h1{
+    position: absolute;
+    font-size: 3.1rem;
+    margin-bottom: 1.8rem;
+}
+.finalback h2{
+    color: #969494;
+    font-size: 2.9rem;
+    margin-top: 2rem;
+    font-weight: 800;
+}
+.contact p
+{
+    color: #787878;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+.contact .layer2
+{
+    position: relative;
+    
+}
+
+.carousel-caption-new
+{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: unset;
+}
+
+
